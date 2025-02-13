@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-image: url(img/backgrnd.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background: rgba(86, 86, 86, 0.5);
+  background-image: url(img/FelicidadesPochoclo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.containerL,
+.containerR1,
+.containerR2,
+.containerR3 {
+  background: rgba(86, 86, 86, 0.5);
+  border-radius: 35px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.containerL {
+  top: 280%;
+  width: 35%;
+  height: 450px;
+  background-image: url(img/Patrona.png);
+}
+
+.containerR1 {
+  right: 10%;
+  top: 280%;
+  width: 12%;
+  height: 100px;
+  background-image: url(img/Si.png);
+}
+
+.containerR2 {
+  right: 13%;
+  top: 400%;
+  width: 7%;
+  height: 100px;
+  background-image: url(img/O.png);
+}
+
+.containerR3 {
+  right: 10%;
+  top: 520%;
+  width: 12%;
+  height: 100px;
+  background-image: url(img/Nadota.png);
+}

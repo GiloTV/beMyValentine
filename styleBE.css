@@ -40,6 +40,19 @@ body {
   width: 12%;
   height: 75px;
   background-image: url(img/Si.png);
+  transition: all 0.2s ease-in-out;
+}
+
+.containerR1:hover {
+  background: rgba(34, 34, 34, 0.5);
+  right: 40%;
+  bottom: 120px;
+  width: 12%;
+  height: 75px;
+  background-image: url(img/Si.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .containerR3 {
@@ -48,4 +61,17 @@ body {
   width: 12%;
   height: 100px;
   background-image: url(img/Nadota.png);
+  transition: all 0.2s ease-in-out;
+}
+
+.containerR3:hover {
+  background: rgba(34, 34, 34, 0.5);
+  right: 15%;
+  bottom: 95px;
+  width: 12%;
+  height: 100px;
+  background-image: url(img/Nadota.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
